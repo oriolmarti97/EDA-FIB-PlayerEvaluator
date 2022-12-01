@@ -76,7 +76,7 @@ def main():
     for (clau, valor) in resum['max'].items():
         print(f'\t{clau}: {valor}')
     print('Mitjans:')
-    for (clau, valor) in resum['min'].items():
+    for (clau, valor) in resum['acumulat'].items():
         print(f'\t{clau}: {valor/n}')
 
 
